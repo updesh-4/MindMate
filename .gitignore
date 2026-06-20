@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+*/node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Secrets / env
+.env
+.env*.local
+*.env
+!*.env.example
+
+# Logs
+*.log
+combined.log
+error.log
+
+# Misc
+.DS_Store
+.idea/
+.vscode/
+*.tsbuildinfo
+next-env.d.ts
